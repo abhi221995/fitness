@@ -1,0 +1,1725 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON CLASS */
+
+@font-face {
+    font-family: "roboto-regular";
+    src: url("../Font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poppins-regular";
+    src: url("../Font/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "century-regular";
+    src: url("../Font/ceaswfte.ttf");
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.wrapper{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* NAV PART */
+
+.logo{
+    width: 200px;
+    height: 63px;
+}
+
+.navbar-nav li{
+    margin-left: 54px;
+}
+
+
+.nav-link{
+    font-family: "roboto-regular",sans-serif;
+    font-size: 18px;
+}
+
+
+.nav-icon{
+    margin: 0 54px;
+}
+
+.nav-button button{
+    background-color: #8BC726;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+}
+
+/* .nav-button button a{
+    transition: 2s ease-in;
+} */
+
+.nav-button button:hover{
+    background-color: #12B73E;
+}
+
+/* .nav-button button a:hover{
+    transition: ease-out 2s;
+} */
+
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* BANNER PART */
+.banner{
+    height: 753px;
+    background-image: url(../Image/banner\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    /* display: flex;
+    justify-content: start;
+    align-items: start; */
+    padding-top: 138px;
+}
+
+.banner_heading{
+    width: 595px;
+    height: 120px;
+}
+
+.banner h1{
+    font-family: "century-regular",sans-serif;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+    }
+
+.banner h2{
+font-family: "century-regular",sans-serif;
+font-size: 40px;
+color: #12B73E;
+margin-bottom: 30px;
+}
+
+.banner .p1{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 16px;
+    /* margin-bottom: 50px; */
+}
+
+.banner-text{
+    width: 540px;
+    margin-bottom: 50px;
+}
+
+.banner-btn button{
+    width: 238px;
+    height: 62px;
+    border: none;
+    border-radius: 30px;
+    background-color: #12B73E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-btn button a{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 20px;
+}
+
+
+/* AROGYA PART */
+
+.arogya_part{
+    /* height: 547px; */
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.arogyaImg{
+    /* width: 400px; */
+    height: 500px;
+    text-align: center;
+}
+
+.arogyaImg img{
+    width: 400px;
+    height: 500px;
+}
+
+.arogya-textpart{
+    /* width: 700px; */
+    height: 500px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arogya-textpart h3{
+    font-family: "century-regular",sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.arogya-textpart .p2{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 40px;
+
+}
+
+.arogya-btn button{
+    width: 200px;
+    height: 50px;
+    background-color: #12B73E;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arogya-btn button a{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 16px;
+}
+
+/* ACTIVITIES PART */
+.activities-part{
+    /* height: 912px; */
+    background-image: url(../Image/activitie\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.activitie-heading h3{
+    font-family: "century-regular",sans-serif;
+    font-size: 40px;
+    text-decoration: underline #8BC726;
+    /* margin-bottom: 20px; */
+}
+
+.activitie-heading{
+    transform: translateY(80%);
+}
+
+.activitie-img img{
+    width: 150px;
+    height: 150px;
+}
+
+#activitie-img3 img{
+    width: 300px;
+    height: 273.61px;
+}
+
+.activitie-text .p3{
+    font-family: "century-regular",sans-serif;
+    font-size: 24px;
+}
+
+.activitie-text .p4{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 15px;
+}
+
+.activitie-part3{
+    transform: translateY(45%);
+}
+
+.activitie-part4{
+    transform: translateY(50%);
+}
+
+#activitie-type3{
+    height: 650px;
+}
+
+/* TIPS PART */
+.tips-img img{
+    width: 250px;
+    height: 247px;
+}
+
+.card-body .p5{
+    font-family: "century-regular",sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card-body .p6{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 16px;
+}
+
+/* HEALTH TIPS PART */
+
+.health-tipspart{
+    padding: 80px 0px;
+}
+
+.health-heading h3{
+    font-family: "century-regular",sans-serif;
+    font-size: 40px;
+    text-decoration: underline #8BC726;
+}
+
+.sub-row{
+    padding: 20px;
+}
+
+.sub-col{
+    background-color: #F3F3F3; 
+    padding: 20px;
+}
+
+.healthImg img{
+    width: 250px;
+    height: 200px;
+}
+
+.card-body .p7{
+    font-family: "century-regular",sans-serif;
+    font-size: 24px;
+}
+
+.card-body .p8{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 14px;
+}
+
+.health-tipspart .card-body a{
+    color: #12B73E;
+}
+
+/* JOURNEY PART */
+
+.journey-part{
+    background-image: url(../Image/journey\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 469px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+/* .journey{
+    height: 469px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+} */
+
+.journey-part h3{
+    font-family: "century-regular",sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.journey-btn button{
+    background-color: #8BC726;
+    width: 201px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+
+.journey-part .p9{
+    text-decoration: line-through red;
+}
+
+/* BLOG PART */
+
+.blog-part{
+    padding: 80px 0px;
+}
+
+.blog-heading{
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-heading h3{
+    font-family: "century-regular",sans-serif;
+    font-size: 40px;
+    text-decoration: underline #12B73E;
+    margin-bottom: 50px;
+    
+}
+
+/* .blog-card img{
+    width: 607px;
+    height: 379px;
+ } */
+
+.blog-part .card-body{
+    background-color: #F3F3F3;
+}
+
+.blog-text{
+    width: 50%;
+    text-align: center;
+}
+
+.cardupper-part .p11,.p12{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 14px;
+}
+
+.cardlower-part .p13{
+    font-family: "century-regular",sans-serif;
+    font-size: 20px;
+}
+
+.blog-card{
+    margin-bottom: 20px;
+}
+
+/* TESTIMONIAL PART */
+
+.testimonial-part{
+    padding: 10px 0px 5px 0px;
+}
+
+.t-card{
+    border: none;
+    background-color: #E2E2E2;
+    padding: 20px 30px 70px 30px;
+}
+
+.testimonial-heading{
+    margin-bottom: 50px;
+}
+
+.testimonial-heading h3{
+    font-family: "century-regular",sans-serif;
+    font-size: 40px;
+    text-decoration: underline #12B73E;
+}
+
+.t-icon{
+    color: #12B73E;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.testimonial-part .p14{
+    font-family: "century-regular",sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.testimonial-part .p15{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.testimonial-part .p16{
+    font-family: "century-regular",sans-serif;
+    font-size: 14px;
+    /* margin-bottom: 100px; */
+}
+
+.testimonial-part .p17{
+color: #8BC726;
+}
+
+.testimonial-img img{
+    width: 120px;
+    height: 120px;
+}
+
+.testimonial-img{
+    text-align: center;
+    transform: translateY(-50%);
+    transform: translate(50% -50%);
+}
+
+/* APP PART */
+.app-part{
+    padding: 10px 0px 50px 0px;
+}
+
+.phone{
+    height: 780px;
+    position: relative;
+}
+
+.phone1{
+    height: 722px;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+
+.phone2{
+    height: 722px;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+}
+
+.app-text h5{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 28px;
+    color: #8BC726;
+}
+
+.app-text h3{
+    font-family: "century-regular",sans-serif;
+    font-size: 48px;
+}
+
+.app-text .p18{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 16px;
+}
+
+.app-text{
+    margin-bottom: 70px;
+}
+
+.qr-code{
+    width: 220px;
+    height: 220px;
+}
+
+.app-store{
+    width: 200px;
+    height: 67px;
+    /* margin-bottom: 15px; */
+}
+
+.g-play{
+    width: 200px;
+    height: 60px;
+}
+
+.apps-dwlpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.app-rightpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+/* FOOTER PART */
+
+.footer-part{
+    padding-top: 20px; 
+    padding-bottom: 50px;
+}
+
+.footer-logo{
+    width: 250px;
+    height: 78px;
+    margin-bottom: 20px;
+}
+
+.footer-part .p19{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 16px;
+}
+
+.footer-part .p20{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 16px;
+}
+
+.footer-listItem .p21{
+    font-family: "century-regular",sans-serif;
+    font-size: 24px;
+}
+
+.footer-list{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer-list li a{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 16px;
+}
+
+.footer-thirdpart .p22{
+    font-family: "century-regular",sans-serif;
+    font-size: 24px;
+}
+
+.footer-thirdpart .p23{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.f-subscribe{
+    width: 100%;
+    border: 1px solid black;
+    background-color: #12B73E;
+    margin-bottom: 20px;
+}
+
+.f-subscribe input{
+    width: 78%;
+    height: 30px;
+    text-indent: 15px;
+    border: none;
+}
+
+.f-subscribe button{
+    width: 20%;
+    height: 30px;
+    background-color: #12B73E;
+    border: none;
+}
+
+.f-subscribe button a{
+    font-family: "poppins-regular",sans-serif;
+    font-size: 12px;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-icon .p24{
+    font-size: 30px;
+    color: #12B73E;
+    margin-left: 20px;
+}
+
+#whats-app{
+    margin-left: 0px;
+}
+
+#f-secondpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#f-thirdpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.copyright-part hr{
+    color: black;
+}
+
+.copyright-part .p25 {
+    font-family: "poppins-regular",sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------- RESPONSIVE PART------------------- */
+
+@media screen and (max-width:1440px) {
+    /* BANNER PART */
+    .banner{
+        height: 580px;
+    }
+
+    .banner_heading{
+        width: 500px;
+        height: 120px;
+    }
+    
+    .banner h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+        }
+    
+    .banner h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    }
+    
+    .banner .p1{
+        font-size: 16px;
+    }
+    
+    .banner-text{
+        width: 450px;
+        margin-bottom: 30px;
+    }
+    
+    .banner-btn button{
+        width: 200px;
+        height: 42px;
+    }
+    
+    .banner-btn button a{
+        font-family: "poppins-regular",sans-serif;
+        font-size: 20px;
+    }
+
+    /* JOURNEY PART */
+
+    .journey-part{
+        height: 400px;
+    }
+
+    /* APP PART */
+
+    .app-part{
+        padding: 10px 0px 20px 0px;
+    }
+    
+    .phone{
+        height: 650px;
+        position: relative;
+    }
+    
+    .phone1{
+        width: 250px;
+        height: 500px;
+        position: absolute;
+        top: 0%;
+        left: 10%;
+    }
+    
+    .phone2{
+        width: 220px;
+        height: 500px;
+        position: absolute;
+        top: 10%;
+        left: 28%;
+    }
+
+
+}
+
+@media screen and (max-width:1199px) {
+    /* NAV PART */
+    .navbar-nav li{
+        margin-left: 20px;
+    } 
+
+    .nav-icon{
+        margin: 0 20px;
+    }
+
+    /* BANNER PART */
+    .banner{
+        height: 480px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+    }
+
+    .banner_heading{
+        width: 500px;
+        height: 120px;
+    }
+    
+    .banner h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+        }
+    
+    .banner h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    }
+    
+    .banner .p1{
+        font-size: 16px;
+    }
+    
+    .banner-text{
+        width: 450px;
+        margin-bottom: 30px;
+    }
+    
+    .banner-btn button{
+        width: 200px;
+        height: 42px;
+    }
+    
+    .banner-btn button a{
+        font-family: "poppins-regular",sans-serif;
+        font-size: 20px;
+    }
+
+     /* AROGYA PART */
+
+      .arogyaImg{
+        height: 400px;
+        /* text-align: center; */
+    } 
+
+    .arogya-textpart{
+        /* width: 700px; */
+        height: 400px;
+    }
+
+    .arogya-textpart h3{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    
+    .arogya-textpart .p2{
+        font-size: 14px;
+        margin-bottom: 30px;
+        line-height: 40px;
+    
+    }
+    
+    .arogya-btn button{
+        width: 150px;
+        height: 40px;
+    }
+    
+    .arogya-btn button a{
+        font-size: 16px;
+    }
+
+     /* JOURNEY PART */
+
+     .journey-part{
+        height: 300px;
+    }
+
+    /* FOOTER PART */
+
+    .footer-logo{
+        width: 200px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .footer-part .p19{
+        font-size: 14px;
+    }
+    
+    .footer-part .p20{
+        font-size: 14px;
+    }
+    
+    .footer-listItem .p21{
+        font-size: 20px;
+    }
+
+    .footer-list li a{
+       
+        font-size: 14px;
+    }
+
+    .footer-thirdpart .p22{
+        font-size: 20px;
+    }
+    
+    .footer-thirdpart .p23{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+
+    
+}
+
+@media screen and (max-width:991px) {
+
+    /* NAV PART */
+
+    .logo{
+        width: 150px;
+        height: 53px;
+    }
+   
+     /* BANNER PART */
+     .banner{
+        height: 400px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+    .banner_heading{
+        width: 400px;
+        height: 120px;
+    }
+    
+    .banner h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+        }
+    
+    .banner h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+    
+    .banner .p1{
+        font-size: 10px;
+    }
+    
+    .banner-text{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    .banner-btn button{
+        width: 130px;
+        height: 42px;
+    }
+    
+    .banner-btn button a{
+        font-family: "poppins-regular",sans-serif;
+        font-size: 15px;
+    }
+
+    /* AROGYA PART */
+
+    .arogya_part{
+       padding: 20px 50px 50px 50px;
+    }
+
+    .arogyaImg{
+        /* width: 400px; */
+        height: 290px;
+        text-align: center;
+    }
+    
+    .arogya-textpart{
+        height: 290px;
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .arogyaImg img{
+        width: 250px;
+        height: 300px;
+    }
+
+    .arogya-textpart h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .arogya-textpart .p2{
+        font-size: 14px;
+        margin-bottom: 20px;
+        line-height: 30px;
+    
+    }
+    
+    .arogya-btn button{
+        width: 120px;
+        height: 30px;
+    }
+    
+    .arogya-btn button a{
+        font-size: 16px;
+    }
+
+    /* ACTIVITIES PART */
+    .activities-part{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #activitie-img3 img{
+        width: 200px;
+        height: 173.61px;
+    }
+
+    .activitie-heading h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .activitie-part3{
+        transform: translateY(50%);
+    }
+    
+    .activitie-part4{
+        transform: translateY(50%);
+    }
+
+
+    /* HEALTH TIPS PART */
+
+    .health-tipspart{
+        padding: 30px 0px;
+    }
+
+    .health-heading h3{
+        font-size: 30px;
+    }
+
+    .healthImg img{
+        width: 220px;
+        height: 170px;
+    }
+
+    .card-body .p7{
+        font-size: 18px;
+    }
+    
+    .card-body .p8{
+        font-family: "poppins-regular",sans-serif;
+        font-size: 14px;
+    }
+
+     /* JOURNEY PART */
+
+     .journey-part{
+        height: 200px;
+    }
+
+    .journey-part h3{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .journey-btn button{
+        width: 150px;
+        height: 30px;
+        
+    }
+
+    .journey-btn button a{
+        font-size: 14px;
+    }
+
+    /* BLOG PART */
+
+    .blog-part{
+        padding: 30px 0px;
+    }
+
+    .cardupper-part .p11,.p12{
+        font-family: "poppins-regular",sans-serif;
+        font-size: 12px;
+    }
+    
+    .cardlower-part .p13{
+        font-family: "century-regular",sans-serif;
+        font-size: 15px;
+    }
+
+    /* TESTIMONIAL PART */
+
+    .testimonial-heading h3{
+        font-size: 30px;
+    }
+
+    /* APP PART */
+
+    .app-part{
+        padding: 10px 0px 20px 0px;
+    }
+    
+    .phone{
+        height: 500px;
+        position: relative;
+    }
+    
+    .phone1{
+        width: 200px;
+        height: 400px;
+        position: absolute;
+        top: 0%;
+        left: 10%;
+    }
+    
+    .phone2{
+        width: 180px;
+        height: 400px;
+        position: absolute;
+        top: 10%;
+        left: 28%;
+    }
+
+    .app-text{
+        margin-bottom: 30px;
+    }
+
+    .app-text h5{
+        font-size: 20px;
+    }
+    
+    .app-text h3{
+        font-size: 30px;
+    }
+    
+    .app-text .p18{
+        font-size: 14px;
+    }
+
+    .qr-code{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .app-store{
+        width: 120px;
+        height: 40px;
+        /* margin-bottom: 15px; */
+    }
+    
+    .g-play{
+        width: 120px;
+        height: 36px;
+    }
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:767px) {
+    
+     /* BANNER PART */
+     .banner{
+        height: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+    .banner_heading{
+        width: 300px;
+        height: 120px;
+    }
+    
+    .banner h1{
+        font-size: 15px;
+        margin-bottom: 10px;
+        }
+    
+    .banner h2{
+    font-size: 15px;
+    margin-bottom: 10px;
+    }
+    
+    .banner .p1{
+        font-size: 10px;
+    }
+    
+    .banner-text{
+        width: 220px;
+        margin-bottom: 20px;
+    }
+    
+    .banner-btn button{
+        width: 110px;
+        height: 32px;
+    }
+    
+    .banner-btn button a{
+        font-size: 10px;
+    }
+
+    
+    /* AROGYA PART */
+
+    .arogyaImg{
+        height: 300px;
+        text-align: center;
+    }
+
+    .arogya-textpart{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .arogya-textpart h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .arogya-textpart .p2{
+        font-size: 14px;
+        margin-bottom: 20px;
+        line-height: 30px;
+    
+    }
+    
+    .arogya-btn button{
+        width: 120px;
+        height: 30px;
+       
+    }
+    
+    .arogya-btn button a{
+        font-size: 14px;
+    }
+
+    /* ACTIVITIES PART */
+    .activities-part{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #activitie-img3 img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .activitie-heading h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .activitie-heading{
+        transform: translateY(20%);
+    }
+
+    .activitie-part3{
+        transform: translateY(0%);
+    }
+    
+    .activitie-part4{
+        transform: translateY(0%);
+    }
+
+    .activitie-text .p3{
+      margin-bottom: 5px;
+    }
+    
+    .activitie-text .p4{
+        margin-bottom: 5px;
+    }
+
+    #activitie-type3{
+        height: 450px;
+    }
+
+    #activitie-col1{
+        margin-bottom: 40px;
+    }
+
+    /* TIPS PART */
+
+    .tips-img img{
+        width: 180px;
+        height: 177px;
+    }
+    
+    .card-body .p5{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .card-body .p6{
+        font-size: 14px;
+    }
+
+    /* HEALTH TIPS PART */
+
+    .health-tipspart{
+        padding: 20px 0px;
+    }
+
+    .health-heading h3{
+        font-size: 30px;
+    }
+
+     /* BLOG PART */
+
+     .blog-part{
+        padding: 30px 0px;
+    }
+
+    .blog-heading{
+        margin-bottom: 30px;
+    }
+
+    
+.blog-heading h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.blog-text{
+    width: 60%;
+    text-align: center;
+}
+
+/* .blog-card {
+    width: 300px;
+} */
+
+/* TESTIMONIAL PART */
+
+
+/* #t-col3{
+    text-align: center !important;
+} */
+
+
+/* APP PART */
+
+.app-part{
+    padding: 10px 0px 20px 0px;
+}
+
+.phone{
+    height: 360px;
+    position: relative;
+   
+}
+
+.phone1{
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.phone2{
+    width: 135px;
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    left: 37%;
+}
+
+.app-text{
+    margin-bottom: 20px;
+}
+
+.app-text h5{
+    font-size: 20px;
+}
+
+.app-text h3{
+    font-size: 30px;
+}
+
+.app-text .p18{
+    font-size: 14px;
+}
+
+.qr-code{
+    width: 150px;
+    height: 150px;
+}
+
+.app-store{
+    width: 120px;
+    height: 40px;
+    /* margin-bottom: 15px; */
+}
+
+.g-play{
+    width: 120px;
+    height: 36px;
+}
+
+/* FOOTER PART */
+
+.footer-logo{
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:575px) {
+    
+     /* BANNER PART */
+     .banner{
+        height: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+    .banner_heading{
+        width: 300px;
+        height: 100px;
+    }
+    
+    .banner h1{
+        font-size: 15px;
+        margin-bottom: 10px;
+        }
+    
+    .banner h2{
+    font-size: 15px;
+    margin-bottom: 10px;
+    }
+    
+    .banner .p1{
+        font-size: 10px;
+    }
+    
+    .banner-text{
+        width: 220px;
+        margin-bottom: 10px;
+    }
+    
+    .banner-btn button{
+        width: 90px;
+        height: 22px;
+    }
+    
+    .banner-btn button a{
+        font-size: 10px;
+    }
+
+    /* AROGYA PART */
+
+    .arogya_part{
+        padding: 20px 20px 10px 20px;
+     }
+
+    .arogyaImg{
+        height: 200px;
+        text-align: center;
+    }
+
+    .arogyaImg img{
+        width: 160px;
+        height: 200px;
+    }
+
+    .arogya-textpart{
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .arogya-textpart h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .arogya-textpart .p2{
+        font-size: 12px;
+        margin-bottom: 20px;
+        line-height: 20px;
+    
+    }
+    
+    .arogya-btn button{
+        width: 120px;
+        height: 30px;
+       
+    }
+    
+    .arogya-btn button a{
+        font-size: 14px;
+    }
+
+    /* ACTIVITIES PART */
+
+    .activitie-text .p3{
+        font-size: 18px;
+    }
+    
+    .activitie-text .p4{
+        font-family: "poppins-regular",sans-serif;
+        font-size: 12px;
+    }
+
+     /* JOURNEY PART */
+
+     .journey-part{
+        height: 130px;
+    }
+
+    .journey-part h3{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .journey-btn button{
+        width: 100px;
+        height: 30px;
+        
+    }
+
+    .journey-btn button a{
+        font-size: 11px;
+    }
+
+     /* BLOG PART */
+
+      /* BLOG PART */
+
+      .blog-part{
+        padding: 20px 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .blog-heading{
+        margin-bottom: 20px;
+    }
+
+    
+.blog-heading h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.blog-text{
+    width: 80%;
+    text-align: center;
+}
+
+     /* .blog-card img{
+        height: 250px;
+     } */
+
+     .cardupper-part .p11,.p12{
+        font-family: "poppins-regular",sans-serif;
+        font-size: 12px;
+    }
+    
+    .cardlower-part .p13{
+        font-family: "century-regular",sans-serif;
+        font-size: 12px;
+    }
+
+    /* TESTIMONIAL PART */
+
+    .testimonial-part .p14{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .testimonial-part .p15{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    /* APP PART */
+
+.app-part{
+    padding: 10px 0px 20px 0px;
+}
+
+.phone{
+    height: 250px;
+    position: relative;
+   
+}
+
+.phone1{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.phone2{
+    width: 90px;
+    height: 200px;
+    position: absolute;
+    top: 7%;
+    left: 37%;
+}
+
+.app-text{
+    margin-bottom: 20px;
+}
+
+.app-text h5{
+    font-size: 17px;
+}
+
+.app-text h3{
+    font-size: 25px;
+}
+
+.app-text .p18{
+    font-size: 12px;
+}
+
+.qr-code{
+    width: 120px;
+    height: 120px;
+}
+
+.app-store{
+    width: 120px;
+    height: 40px;
+    /* margin-bottom: 15px; */
+}
+
+.g-play{
+    width: 120px;
+    height: 36px;
+}
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:479px) {
+    
+       /* BANNER PART */
+       .banner{
+        height: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+    }
+
+    .banner_heading{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .banner h1{
+        font-size: 10px;
+        margin-bottom: 5px;
+        }
+    
+    .banner h2{
+    font-size: 10px;
+    margin-bottom: 5px;
+    }
+    
+    .banner .p1{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .banner-text{
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    
+    .banner-btn button{
+        width: 90px;
+        height: 22px;
+    }
+    
+    .banner-btn button a{
+        font-size: 10px;
+    }
+
+    /* JOURNEY PART */
+
+    /* .journey-part{
+        height: 100px;
+    } */
+
+    .journey-part h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .journey-btn button{
+        width: 80px;
+        height: 25px;
+    }
+
+    .journey-btn button a{
+        font-size: 10px;
+    }
+
+    /* TESTIMONIAL PART */
+
+    
+
+
+
+
+
+
+
+
+}
